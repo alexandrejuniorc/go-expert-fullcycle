@@ -4,6 +4,7 @@ import (
 	"fmt"
 
 	"github.com/alexandrejuniorc/go-expert-fullcycle/matematica"
+	"github.com/google/uuid"
 )
 
 func main() {
@@ -16,4 +17,6 @@ func main() {
 	fmt.Println("Carro: ", carro.Marca)
 
 	carro.Andar()
+
+	fmt.Println(uuid.New())
 }
