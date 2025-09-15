@@ -11,4 +11,9 @@ func main() {
 	soma := matematica.Soma(10, 20)
 
 	fmt.Println("Resultado: ", soma)
+
+	carro := matematica.Carro{Marca: "Toyota"}
+	fmt.Println("Carro: ", carro.Marca)
+
+	carro.Andar()
 }
