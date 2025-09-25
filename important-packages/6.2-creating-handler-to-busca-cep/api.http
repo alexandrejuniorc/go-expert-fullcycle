@@ -1,0 +1,4 @@
+@BASE_URL = http://localhost:8080
+
+### Busca CEP
+GET {{BASE_URL}}?cep=37831180
